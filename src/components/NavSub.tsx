@@ -15,7 +15,7 @@ const NavSub = () => {
                         icon: tool.name === 'GitHub' ? <IconGithubLogo /> : <IconAccessibility />,
                     }))
                 ]}
-                onClick={(data) => { window.location.href = `/${data.itemKey}` }}
+                onClick={(data) => { window.location.href = `${data.itemKey}` }}
                 header={<Button onClick={() => window.location.href = 'https://jixiejidiguan.top/'} theme='borderless' type='tertiary' icon={<IconApartment />} block>个人主页</Button>}
             />
         </div>

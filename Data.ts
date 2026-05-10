@@ -22,7 +22,7 @@ export const Config: Config = {
     'ur1466828-96640b6a19c5204706e00c05',
   ],
   // 日志天数
-  CountDays: 90,
+  CountDays: 31,
   // 是否显示检测站点的链接
   ShowLink: true,
   // 导航链接
